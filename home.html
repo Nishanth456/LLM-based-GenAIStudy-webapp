@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+    <title>Student Learning Portal</title>
+    <style>
+        body {
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin-top: 50px; /* Adjust the value for top margin */
+            font-family: 'Arial', sans-serif; /* Change the font family */
+        }
+
+        .margin {
+            margin-left: 65%;
+            width: 30%;
+            margin-top:6%;
+        }
+
+        .custom-heading {
+            color: #3722a1e0; /* Red color for the heading */
+            font-size: 2.5em; /* Adjust the font size */
+            margin-top: 75px; /* Adjust the value for top margin */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Change the font family */
+            border-top-right-radius: 7px;
+            border-bottom-left-radius: 7px;/* Rounded corners */
+            background-color: #92e159; /* Background color of the heading */
+            padding: 15px; /* Padding inside the box */
+            display: inline-block; /* Ensures the box doesn't span the full width */
+        }
+
+        .quote-container {
+            position: fixed;
+            bottom: 10%;
+            left: 3%;
+            width: 20%;
+            background-color: #cfa352; /* Background color of the quote container */
+            padding: 15px;
+            border-top-right-radius: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xxxl fixed-top container-fluid bg-dark">
+        <div class="container-fluid my-2">
+            <a href="/" class="navbar-brand text-light font-weight-bold">Student Learning Portal</a>
+            <button class="btn btn-outline-info ml-auto">Login</button>
+            <button class="navbar-toggler ml-2" data-toggle="collapse" data-target="#collapseNav">
+                <span class="fas fa-bars text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link text-light h6 mx-3">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="quote-container">
+        <p>"Education is the most powerful weapon which you can use to change the world." - Nelson Mandela</p>
+    </div>
+    <div class="container text-center">
+        <h1 class="custom-heading">GenAIStudy</h1>
+        <div class="container text-right margin">
+            <a href="http://localhost:8501" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-danger text-light btn-lg my-1">Ques PDF</button>
+            </a>
+            <a href="http://localhost:8502" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-danger text-light btn-lg my-1">Youtube Video Summarizer</button><br>
+            </a>
+            <a href="http://localhost:8503" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-danger text-light btn-lg my-1">PDF Quiz Generator</button>
+            </a>
+        </div>
+    </div>
+    <footer class="fixed-bottom">
+        <div class="container-fluid bg-dark text-center">
+            <div class="row">
+                <div class="row">
+                    <div class="text-muted pl-4 pt-1">
+                        <p>Copyright <i class="fas fa-copyright"></i> Nishanth and Mohith 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
