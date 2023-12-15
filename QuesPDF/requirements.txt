@@ -1,0 +1,7 @@
+llama-index
+tiktoken
+replicate
+transformers
+pypdf2
+torch
+streamlit
