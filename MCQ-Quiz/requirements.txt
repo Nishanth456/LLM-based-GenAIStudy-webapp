@@ -1,0 +1,11 @@
+llama-index
+tiktoken
+replicate
+transformers
+pypdf2
+torch
+streamlit
+tempfile
+langchain
+python-dotenv
+docx2txt
